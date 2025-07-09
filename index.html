@@ -115,7 +115,7 @@
     </style>
 </head>
 <body class="bg-white">
-    <!-- Header -->
+    
     <header class="coral-bg">
         <nav class="container mx-auto px-4 py-4">
             <div class="flex justify-between items-center">
@@ -123,7 +123,7 @@
                     PROJECT
                 </div>
                 
-                <!-- Desktop Navigation -->
+                
                 <div class="desktop-nav hidden md:flex space-x-8 font-source">
                     <a href="#hero" class="text-white hover:text-gray-200 transition-colors text-sm font-medium tracking-wide">PROJECTS</a>
                     <a href="#about" class="text-white hover:text-gray-200 transition-colors text-sm font-semibold tracking-wide">ABOUT US</a>
@@ -131,7 +131,7 @@
                     <a href="#footer" class="text-white hover:text-gray-200 transition-colors text-sm font-medium tracking-wide">CONTACT</a>
                 </div>
                 
-                <!-- Mobile Hamburger -->
+                
                 <div class="hamburger md:hidden" onclick="toggleMobileMenu()">
                     <span></span>
                     <span></span>
@@ -139,7 +139,7 @@
                 </div>
             </div>
             
-            <!-- Mobile Menu -->
+            
             <div class="mobile-menu mt-4 md:hidden font-source">
                 <div class="flex flex-col space-y-4">
                     <a href="#hero" class="text-white hover:text-gray-200 transition-colors text-sm font-medium tracking-wide">PROJECTS</a>
@@ -151,7 +151,7 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    
     <section id="hero" class="hero-section min-h-screen flex items-center justify-center relative">
         <div class="absolute inset-0 bg-black bg-opacity-20"></div>
         <div class="relative z-10 text-center">
@@ -167,7 +167,7 @@
         </div>
     </section>
 
-    <!-- About Us Section -->
+    
     <section id="about" class="section-text py-20">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
@@ -195,7 +195,7 @@
                     </div>
                 </div>
                 
-                <!-- Centered READ MORE Button -->
+                
                 <div class="text-center mt-16">
                     <button class="coral-bg text-white px-8 py-3 rounded-full hover:opacity-90 transition-opacity font-source font-semibold text-sm tracking-wide">
                         READ MORE
@@ -205,7 +205,7 @@
         </div>
     </section>
 
-    <!-- Stories Section -->
+    
     <section id="stories" class="culture-section min-h-screen flex items-center justify-center relative">
         <div class="absolute inset-0 bg-black bg-opacity-40"></div>
         <div class="relative z-10 text-center text-white">
@@ -222,7 +222,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    
     <footer id="footer" class="coral-bg py-12">
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row justify-between items-center">
@@ -254,7 +254,7 @@
             alert('Video player would open here');
         }
         
-        // Smooth scrolling for navigation links
+    
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -266,7 +266,7 @@
                     });
                 }
                 
-                // Close mobile menu if open
+            
                 const mobileMenu = document.querySelector('.mobile-menu');
                 if (mobileMenu.classList.contains('active')) {
                     mobileMenu.classList.remove('active');
